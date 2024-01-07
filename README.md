@@ -15,3 +15,10 @@ This script analyzes traffic flow using YOLOv8 for object detection and ByteTrac
 </div>
 <br><br>
 
+## How to Run
+1. **Clone the Repository**.
+
+2. **Install Required Dependencies.**
+
+ ```bash
+pip install -r requirements.txt
