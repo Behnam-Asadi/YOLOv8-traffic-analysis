@@ -18,6 +18,9 @@ This script analyzes traffic flow using YOLOv8 for object detection and ByteTrac
 ## How to Run
 1. **Clone the Repository**.
 
+```bash
+git clone https://github.com/Behnam-Asadi/YOLOv8-traffic-analysis.git
+ ```
 2. **Install Required Dependencies.**
 
  ```bash
