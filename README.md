@@ -22,3 +22,8 @@ This script analyzes traffic flow using YOLOv8 for object detection and ByteTrac
 
  ```bash
 pip install -r requirements.txt
+ ```
+3. **Download Files.**
+ ```bash
+./setup.sh
+ ```
