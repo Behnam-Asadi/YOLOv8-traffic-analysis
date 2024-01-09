@@ -30,7 +30,7 @@ pip install -r requirements.txt
  ```
 - **Run the Model.**
  ```bash
-python ultralytics_example.py \
+python main.py \
 --source_weights_path data/traffic_analysis.pt \
 --source_video_path data/traffic_analysis.mov \
 --confidence_threshold 0.3 \
