@@ -48,17 +48,3 @@ class DetectionsManager:
         )(detections_all.tracker_id)
         return detections_all[detections_all.class_id != -1]
 
-
-def initiate_polygon_zones(
-    polygons: List[np.ndarray],
-    frame_resolution_wh: Tuple[int, int],
-    triggering_position: sv.Position = sv.Position.CENTER,
-) -> List[sv.PolygonZone]:
-    return [
-        sv.PolygonZone(
-            polygon=polygon,
-            frame_resolution_wh=frame_resolution_wh,
-            triggering_position=triggering_position,
-        )
-        for polygon in polygons
-    ]
